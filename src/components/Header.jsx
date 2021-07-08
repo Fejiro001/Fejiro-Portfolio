@@ -3,7 +3,7 @@ import { FiChevronDown, FiMenu } from "react-icons/fi";
 const Header = () => {
   return (
     <nav className='header'>
-      <h2 className='logo'>FEJIRO</h2>
+      <h2 className='logo'>ABERE</h2>
       <ul>
         <li>
           <a href= '/' className='links'>Home</a>
