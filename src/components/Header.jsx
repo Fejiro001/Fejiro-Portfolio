@@ -9,22 +9,22 @@ const Header = () => {
           <a href= '/' className='links'>Home</a>
         </li>
         <li>
-          <a href= '' className='links'>Services</a>
+          <a  className='links'>Services</a>
         </li>
         <li>
-          <a href= '' className='links'>Resume</a>
+          <a  className='links'>Resume</a>
         </li>
         <li>
-          <a href= '' className='links'>Projects</a>
+          <a  className='links'>Projects</a>
         </li>
         <li>
-          <a href= '' className='links'>Blog</a>
+          <a  className='links'>Blog</a>
         </li>
         <li>
-          <a href= '' className='links'>Contact</a>
+          <a  className='links'>Contact</a>
         </li>
         <li>
-          <a href= '' className='links'>Pages
+          <a  className='links'>Pages
           <FiChevronDown className='down'/></a>
         </li>
       </ul>
