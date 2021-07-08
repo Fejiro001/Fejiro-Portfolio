@@ -1,0 +1,240 @@
+body{
+  background-color: rgb(255, 253, 244);
+}
+
+@media screen and (max-width: 800px) {
+  nav ul{
+    margin-top: 10px;
+    display: none;
+  }
+}
+
+nav{
+  background-color: rgb(255, 253, 244);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  color: rgb(249, 87, 56);
+  margin: 10px;
+  padding-left: 40px;
+  height: fit-content;
+}
+
+nav ul{
+  margin: 10px;
+  padding: 0;
+  padding-right: 40px;
+  height: fit-content;
+}
+
+nav ul li{
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.links:hover{
+  color: rgb(249, 87, 56);
+}
+
+.down{
+  height: 11px;
+}
+
+.intro{
+  color: black;
+}
+
+.intro span{
+  color: rgb(249, 87, 56);
+}
+
+.introduce{
+  width: 50%;
+}
+
+.footer{
+  background-color: rgb(249, 87, 56);
+}
+
+.header{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home{
+  width: 100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home div{
+  margin-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hobbies{
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.icon{
+  margin-left: 5px;
+  margin-right: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.icon:hover{
+  stroke: rgb(249, 87, 56);
+}
+
+.row{
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.allitems{
+  margin: 10px;
+  height: fit-content;
+  width: 290px;
+}
+
+.interests{
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  padding: 16px 8px;
+}
+
+.item h6{
+  font-size: medium;
+  font-weight: 500;
+  margin: 0;
+}
+
+.skills{
+  text-align: center;
+  align-items: center;
+}
+
+.show{
+  display: flex;
+  align-items: center;
+}
+
+.left{
+  width: 25%;
+  margin: auto;
+}
+
+.right{
+  width: 75%;
+  margin: auto;
+}
+
+.type{
+  width: fit-content;
+  text-align: center;
+  list-style: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+}
+
+.type li{
+  float: right;
+  background-color: none;
+  border: solid rgb(218, 216, 216) 1px;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 15px;
+  width: 120px;
+  font-size: medium;
+}
+
+.contains div{
+  padding: 10px;
+}
+
+.contains div h6{
+  margin: 0;
+  font-size: 16px;
+}
+
+.android{
+  display: none;
+}
+
+.lang{
+  display: none;
+}
+
+.web{
+  display: block;
+}
+
+.contactme{
+  text-align: center;
+}
+
+.contacts{
+  display: flex;
+  justify-content: center;
+}
+
+.contacts div{
+  margin: 30px;
+}
+
+.contacts div .icons{
+  height: 30px;
+  width: 30px;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form .col{
+  width: 50%;
+}
+
+.form .col .info{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: 50px;
+}
+
+input{
+  margin: 10px;
+  outline: none;
+  width: 100%;
+}
