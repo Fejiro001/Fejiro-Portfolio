@@ -7,6 +7,22 @@ body{
     margin-top: 10px;
     display: none;
   }
+  .menu{
+    display: block;
+  }
+}
+@media screen and (min-width: 800px) {
+  .menu{
+    display: none;
+  }
+}
+
+/* NAVIGATION SECTION */
+.menu{
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin-right: 40px;
 }
 
 nav{
@@ -53,6 +69,14 @@ nav ul li{
   height: 11px;
 }
 
+.header{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* MAIN SECTION */
 .intro{
   color: black;
 }
@@ -63,16 +87,6 @@ nav ul li{
 
 .introduce{
   width: 50%;
-}
-
-.footer{
-  background-color: rgb(249, 87, 56);
-}
-
-.header{
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .home{
@@ -88,6 +102,8 @@ nav ul li{
   padding-right: 50px;
 }
 
+
+/* HOBBIES SECTION */
 .hobbies{
   text-align: center;
   width: 100%;
@@ -138,6 +154,8 @@ nav ul li{
   margin: 0;
 }
 
+
+/* WORK EXPERTISE SECTION */
 .skills{
   text-align: center;
   align-items: center;
@@ -151,6 +169,11 @@ nav ul li{
 .left{
   width: 25%;
   margin: auto;
+}
+
+.left div{
+  display: flex;
+  justify-content: center;
 }
 
 .right{
@@ -178,12 +201,17 @@ nav ul li{
   font-size: medium;
 }
 
-.contains div{
+.contains{
+  width: 60%;
+}
+
+.contains .program{
   padding: 10px;
 }
 
-.contains div h6{
-  margin: 0;
+.contains .program h6{
+  text-align: left;
+  margin: 5px 0;
   font-size: 16px;
 }
 
@@ -196,9 +224,26 @@ nav ul li{
 }
 
 .web{
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
+.progressbar{
+  padding: 0px;
+  height: 10px;
+  background-color: rgb(218, 216, 216);
+  border-radius: 5px
+}
+
+.progress{
+  height: 10px;
+  background-color: rgb(249, 87, 56);
+  border-radius: 5px;
+  width: 50%;
+}
+
+
+/* CONTACT ME SECTION */
 .contactme{
   text-align: center;
 }
@@ -220,21 +265,83 @@ nav ul li{
 .form{
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .form .col{
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
   width: 50%;
+  justify-content: center;
+  /* padding: 0 12px; */
 }
 
 .form .col .info{
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: fit-content;
   margin-left: 50px;
 }
 
-input{
+.message{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.message div{
+  margin-right: 40px;
+  width: 100%;
+}
+
+.input{
+  font-family: Roboto, sans-serif;
+  padding: 6px 12px;
   margin: 10px;
   outline: none;
+  width: 90%;
+  border: solid rgb(218, 216, 216) 1px;
+  border-radius: 7px;
+  outline: none;
+  font-size: 14px;
+  line-height: 2;
+}
+
+textarea{
+  resize: vertical;
+  height: 150px;
+}
+
+.send{
+  display: inline-block;
+  background-color: rgb(249, 87, 56);
+  color: white;
+  border: solid rgb(249, 87, 56) 1px;
+  border-radius: 7px;
+  outline: none;
+  padding: 8px 20px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
   width: 100%;
+}
+
+.contacts a{
+  text-decoration: none;
+  color: rgb(249, 87, 56);
+}
+
+
+/* FOOTER SECTION */
+.footer{
+  background-color: rgb(249, 87, 56);
+  color: white;
 }

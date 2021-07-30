@@ -24,16 +24,20 @@ const Contact = () => {
       <div className='form'>
         <div className='col'>
           <div className='info'>
-            <input type="text" placeholder="Your Name" />
-            <input type="text" placeholder="Your Email" />
-            <input type="text" placeholder="Your Subject" />
+            <input className='input' type="text" placeholder="Your Name" />
+            <input className='input' type="text" placeholder="Your Email" />
+            <input className='input' type="text" placeholder="Your Subject" />
           </div>
         </div>
         <div className='col'>
-          <input type="text" placeholder="Your Message" />
+          <div className='message'>
+            <div>
+              <textarea className='input' type="text" placeholder="Your Message" rows='4' />
+            </div>
+          </div>
         </div>
-        <div>
-          <input type="button" value="Submit" />
+        <div className='submit'>
+          <input className='send' type="button" value="Send Message" />
         </div>
       </div>
     </div>
