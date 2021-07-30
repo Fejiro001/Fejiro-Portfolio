@@ -6,10 +6,10 @@ const Footer = () => {
     <div className='footer'>
       <h2>FEJIRO</h2>
       <div className='social'>
-        <FiFacebook />
-        <FiTwitter />
-        <FiInstagram />
-        <FiLinkedin />
+        <FiFacebook className='socialapp' href='https://web.facebook.com/fejiro.abere'/>
+        <FiTwitter className='socialapp'/>
+        <FiInstagram className='socialapp'/>
+        <FiLinkedin className='socialapp'/>
       </div>
       <div>
         <div>
