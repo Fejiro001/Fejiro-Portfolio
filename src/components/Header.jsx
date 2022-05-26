@@ -1,4 +1,5 @@
 import { FiChevronDown, FiMenu } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -21,7 +22,7 @@ const Header = () => {
           <a  className='links'>Blog</a>
         </li>
         <li>
-          <a  className='links'>Contact</a>
+          <Link  className='links' to='/Contact.jsx'>Contact</Link>
         </li>
         <li>
           <a  className='links'>Pages

@@ -7,11 +7,12 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import Hobbies from './components/Hobbies';
+import { BrowserRouter as Router, Route,  Switch} from 'react-router-dom';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <Router className="App">
       <Header />
       <Sidebar/>
       <Home/>
@@ -20,7 +21,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
-    </div>
+    </Router>
   );
 }
 
